@@ -1,0 +1,28 @@
+---
+---
+@charset 'UTF-8';
+// https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture
+
+// 1. abstract
+@import
+  'abstracts/colors.scss';
+
+// 2. Vendors
+@import
+  'vendors/bootstrap';
+
+// 3. Base stuff
+@import
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/feature',
+  'layout/navigation',
+  'layout/footer';
+
+// 5. Components
+
+// 6. Page-specific styles
+
+// 7. Themes

@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      {% for item in site.data.nav %}
+        {% if item.dropdown == nil %}
+          <li class="nav-item nav-text">
+            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% else %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ item.title }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% for dropdown_link in item.dropdown %}
+              <a class="dropdown-item" href="{{ dropdown_link.url }}">{{ dropdown_link.title }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

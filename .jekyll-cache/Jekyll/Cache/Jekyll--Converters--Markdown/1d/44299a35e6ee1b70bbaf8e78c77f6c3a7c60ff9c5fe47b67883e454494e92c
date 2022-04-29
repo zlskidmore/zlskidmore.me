@@ -1,0 +1,13 @@
+I"J<h2 id="youre-ready-to-go">You’re ready to go!</h2>
+
+<h1 id="install-rbenv">install rbenv</h1>
+<h1 id="install-latest-ruby">install latest ruby</h1>
+<h1 id="install-latest-jekyll">install latest Jekyll</h1>
+<p>Gem install Jekyll bundler</p>
+<h1 id="create-site">create site</h1>
+<p>jekyll new zlskidmore.me –blank</p>
+<h1 id="create-7-in-1-architecture-under-_sass">create 7 in 1 architecture under _sass</h1>
+<h1 id="use-npm-and-install-bootstrap-and-dependencies">use npm and install bootstrap and dependencies</h1>
+<p>npm init –force
+npm install bootstrap –prefix assets</p>
+:ET

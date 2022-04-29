@@ -1,0 +1,14 @@
+- name: GitHub
+  url: https://github.com/zlskidmore
+  fa_class: "fab fa-github fa-2x"
+  title: Github Title
+
+- name: Twitter
+  url: https://twitter.com/zlskidmore
+  fa_class: "fab fa-twitter fa-2x"
+  title: Twitter Title
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/zachary-skidmore-0799653a
+  fa_class: "fab fa-linkedin-in fa-2x"
+  title: Linked-In Title

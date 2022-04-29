@@ -1,0 +1,16 @@
+# Site settings
+title: Skidmore
+slogan: Personal Website
+email:
+author: Zachary Skidmore
+description:
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: _sass
+include: ['_sass']
+markdown: kramdown
+kramdown:
+  auto_ids: true
